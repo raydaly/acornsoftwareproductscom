@@ -14,25 +14,21 @@ npm init svelte@next
 npm init svelte@next my-app
 ```
 
-> Note: the `@next` is temporary
 
-## Developing
+## 1981 Acorn Software Catalog
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+LOST COLONY, INVADERS FROM SPACE [p. 3] (http://gamingafter40.blogspot.com/2011/03/cover-to-cover-acorn-software-fall-1981.html)
+ASTROBALL, PINBALL, TENPINS [p. 5](http://gamingafter40.blogspot.com/2011/03/cover-to-cover-acorn-software-fall-1981_13.html)
+EVEREST EXPLORER, WORD WARS [p. 6] (http://gamingafter40.blogspot.com/2011/03/cover-to-cover-acorn-software-fall-1981_19.html)
+SPACE ROCKS, DUEL-N-DROIDS, SPACE WAR [p. 7] (http://gamingafter40.blogspot.com/2011/03/cover-to-cover-acorn-software-fall-1981_20.html)
+QUAD [p. 8-11](http://gamingafter40.blogspot.com/2011/03/cover-to-cover-acorn-software-fall-1981_26.html)
 
-```bash
-npm run dev
+MONEY MANAGER, SUPERSCRIPT [p. 12-13](http://gamingafter40.blogspot.com/2011/03/cover-to-cover-acorn-software-fall-1981_27.html) 
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## References
 
-## Building
+[atarimania](http://www.atarimania.com/list_games_atari-400-800-xl-xe-acorn-software_publisher_1057_8_G.html)
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+ [myabandonware](https://www.myabandonware.com/browse/publisher/acorn-software-products-inc-20u/)
 
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+ [mobygame](https://www.mobygames.com/company/acorn-software-products-inc)
