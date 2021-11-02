@@ -6,29 +6,45 @@ export default {
       "title": "Codebreaker",
       "description": "Puzzle game",
       "authors": ["Mikal Pederson"],
-      "authors_atari": ["Andrew Bartorillo"],
+      "authors_atari": ["Andrew P. Bartorillo"],
       "whenpub": '1979',
-      "isAtari": true,
+      "isAtari": 999.99,
       "isTRS80": true,
+      "price": 9.95,
       "link": "https://www.mobygames.com/game/codebreaker_"
     },
-    "formula_1_racing": {
-      "id": "formula_1_racing",
-      "title": "Formula 1 Racing",
+    "formula_1": {
+      "id": "formula_1",
+      "title": "Formula 1",
       "description": "Racing game",
       "authors": ["Sid Mieir"],
+      "authorsWikipedia": "https://en.wikipedia.org/wiki/Sid_Meier",
       "whenpub": '1982',
-      "isAtari": true,
+      "isAtari": 29.95,
       "link": "http://www.atarimania.com/game-atari-400-800-xl-xe-formula-1-racing_6288.html",
+      "a8preservation": "http://www.a8preservation.com/#/software/title/2949",
+      "youtube": "https://www.youtube.com/watch?v=0H5NhhmnwBU",
+      "review": "https://web.stanford.edu/group/htgg/cgi-bin/drupal/?q=node/237",
       "note": "This was Sid Mieir's first commercially published game. He later started MicroProse and Firaxis where he famously published Pirates, Railroad Tycoon, Civilization and many other titles."
+    },
+    "music": {
+      "id": "music",
+      "title": "Music",
+      "description": "Compose and play your own music using your TRS-80.",
+      "authors": ["anonymous"],
+      "isTRS80": true,
+      "price": 9.95,
+      "whenpub": "1980"
     },
     "everest_explorer": {
       "id": "everest_explorer",
       "title": "Everest Explorer",
       "description": "Simulation game",
       "authors": ["William Godwin", "Don Knowlton"],
-      "isAtari": true,
+      "isAtari": 19.95,
+      "a8preservation":"http://www.a8preservation.com/#/software/title/2328",
       "isTRS80": true,
+      "price": 19.95,
       "whenpub": '1980',
       "link": "https://www.mobygames.com/game/everest-explorer",
       "review": "https://archive.org/details/80_Micros_Review_Guide_1st_Edition_1983_Wayne_Green_Inc/page/n117/mode/1up"
@@ -38,9 +54,11 @@ export default {
       "title": "Lost Colony",
       "description": "Simulation game",
       "authors": ["David Feitelberg"],
+      "price": 19.95,
       "isTRS80": true,
       "isCreativeReview": true,
-      "isAtari": true,
+      "isAtari": 29.95,
+      "a8preservation": "http://www.a8preservation.com/#/software/title/223",
       "whenpub": '1981',
       "link": "http://www.atarimania.com/game-atari-400-800-xl-xe-lost-colony_3045.html"
     },
@@ -48,10 +66,11 @@ export default {
       "id": "phrase_challenger",
       "title": "Phrase Challenger",
       "description": "Education game",
-      "isAtari": true,
+      "isAtari": 999.99,
+      "a8preservation": "http://www.a8preservation.com/#/software/title/3350",
       "whenpub": "1984",
       "isBanbury": true,
-      "authors": ["Andrew Bartorillo","Richard Taylor"],
+      "authors": ["Andrew P. Bartorillo","Richard Taylor"],
       "link": "http://www.atarimania.com/game-atari-400-800-xl-xe-phrase-challenger_30646.html"
     },
     "pigskin": {
@@ -59,7 +78,9 @@ export default {
       "title": "Pigskin",
       "description": "Football game",
       "authors": ["Rich Sothen","John Laurence","Walter Gavenda"],
-      "isAtari": true,
+      "price": 14.95,
+      "isAtari": 999.99,
+      "a8preservation": "http://www.a8preservation.com/#/software/title/2188",
       "isTRS80": true,
       "whenpub": '1980'
     },
@@ -67,15 +88,17 @@ export default {
       "id": "stock_market",
       "title": "Stock Market",
       "description": "Simulation game",
-      "whenpub": '1979',
-      "isAtari": true,
-      "authors": ["Andrew Bartorillo"]
+      "whenpub": '1984',
+      "a8preservation": "http://www.a8preservation.com/#/software/title/351",
+      "isAtari": 999.99,
+      "authors": ["Andrew P. Bartorillo"]
     },
     "quad": {
       "id": "quad",
       "title": "Quad",
       "description": "Puzzle game. Quad is a variation of Qubic/3-D Tic-Tac-Toe, which adds an extra dimension to the tic-tac-toe game. Two players take turns occupying the squares with the chosen symbols, and each tries to get four in a row, in any dimension of the 4x4x4 grid. ",
       "authors": ["Charles Asper"],
+      "price": 14.95,
       "isTRS80": true,
       "whenpub": '1980',
       "link": "https://www.mobygames.com/game/trs-80/quad_"
@@ -85,6 +108,7 @@ export default {
       "title": "Space War",
       "description": "Space War is a 2-player space fighter for the TRS-80.",
       "authors": ["Device Oriented Games"],
+      "price": 9.95,
       "isTRS80": true,
       "whenpub": '1979',
       "link": "https://www.mobygames.com/game/trs-80/space-war_________"
@@ -95,15 +119,7 @@ export default {
       "description": "Alien Invasion is a 1-player Space Invaders clone for the TRS-80.",
       "authors": ["Roy Niederhoffer"],
       "isTRS80": true,
-      "whenpub": '1979',
-      "link": "https://www.mobygames.com/game/alien-invasion___"
-    },
-    "alien_invasion": {
-      "id": "alien_invasion",
-      "title": "Alien Invasion",
-      "description": "Bandito is a 1-player slot machine game for the TRS-80",
-      "authors": ["anonymous"],
-      "isTRS80": true,
+      "price": 9.95,
       "whenpub": '1979',
       "link": "https://www.mobygames.com/game/alien-invasion___"
     },
@@ -112,6 +128,7 @@ export default {
       "title": "Bandito",
       "description": "Arcade game",
       "authors": ["Doug Pousser"],
+      "price": 9.95,
       "isTRS80": true,
       "whenpub": '1979',
       "link": "https://www.mobygames.com/game/bandito_"
@@ -121,6 +138,7 @@ export default {
       "title": "Ting-Tong",
       "description": "Pong clone for the TRS-80",
       "authors": ["Ray Daly"],
+      "price": 9.95,
       "isTRS80": true,
       "whenpub": '1979',
       "link": "https://www.mobygames.com/game/ting-tong",
@@ -132,6 +150,7 @@ export default {
       "description": "Basketball game",
       "authors": ["John Allen"],
       "isTRS80": true,
+      "price": 14.95,
       "whenpub": "1980",
       "link": "https://www.mobygames.com/game/basketball_"
     },
@@ -140,6 +159,7 @@ export default {
       "title": "Duel-N-Droids",
       "description": "Two androids face off in a sword battle.",
       "authors": ["Leo Christoperson"],
+      "price": 14.95,
       "isTRS80": true,
       "whenpub": '1980',
       "link": "https://www.mobygames.com/game/duel-n-droids",
@@ -150,6 +170,7 @@ export default {
       "title": "Pinball",
       "description": "Pinball Game",
       "authors": ["John Allen"],
+      "price": 14.95,
       "isTRS80": true,
       "whenpub": "1980",
       "link": "https://www.mobygames.com/game/pinballtrs80",
@@ -162,6 +183,7 @@ export default {
       "description": "Pinball Game",
       "authors": ["John Allen"],
       "isTRS80": true,
+      "price": 19.95,
       "isCreativeReview": true,
       "whenpub": "1981" 
     },
@@ -169,6 +191,7 @@ export default {
       "id": "tenpins",
       "title": "Tenpins",
       "description": "Bowling Game",
+      "price": 14.95,
       "authors": ["John Allen"],
       "isTRS80": true,
       "whenpub": "1981"
@@ -177,6 +200,7 @@ export default {
       "id": "invaders_from_space",
       "title": "Invaders from Space",
       "description": "Space Invaders clone",
+      "price": 14.95,
       "authors": ["Carl Miller"],
       "isTRS80": true,
       "whenpub": "1980"
@@ -186,6 +210,7 @@ export default {
       "title": "Word Wars",
       "description": "Two word games: Word Challenge and Word Game",
       "authors": ["Harnhuter","Taylor"],
+      "price": 9.95,
       "isTRS80": true,
       "whenpub": "1979"
     },
@@ -194,7 +219,9 @@ export default {
       "title": "Money Manager",
       "description": "Money management tool",
       "authors": ["Andrew P. Bartorillo"],
+      "price": 39.95,
       "isTRS80": true,
+      "isAtari": 39.95,
       "isCreativeReview": true,
       "whenpub": "1981"
     },
@@ -203,6 +230,7 @@ export default {
       "title": "Superscript",
       "description": "Printer utility",
       "authors": ["Richard Wilkes"],
+      "price": 49.95,
       "isTRS80": true,
       "whenpub": "1980"
     },
@@ -212,12 +240,14 @@ export default {
       "description": "Asteroids clone",
       "authors": ["Steven Kearns"],
       "isTRS80": true,
+      "price": 19.95,
       "whenpub": "1981"
     },
     "gammon_challenger": {
       "id": "gammon_challenger",
       "title": "Gammon Challenger 2.0",
       "description": "Backgammon game",
+      "price": 14.95,
       "authors": ["Ray Daly", "Tom Throop"],
       "isTRS80": true,
       "whenpub": "1980"
@@ -227,6 +257,7 @@ export default {
     "numbering": {
       "id": "numbering",
       "title": "Numbering",
+      "price": 9.95,
       "description": "BASIC Utility",
       "authors": ["Tom Stibolt"],
       "isTRS80": true,
@@ -235,6 +266,7 @@ export default {
     "aterm": {
       "id": "aterm",
       "title": "Aterm",
+      "price": 19.95,
       "description": "Modem Software",
       "authors": ["Tom Stibolt"],
       "isTRS80": true,
@@ -245,6 +277,7 @@ export default {
       "title": "System Savers",
       "description": "Utility",
       "authors": ["Tom Stibolt"],
+      "price": 14.95,
       "isTRS80": true,
       "whenpub": "1980"
     },
@@ -261,6 +294,7 @@ export default {
       "title": "SuperScript",
       "description": "Printer Utility",
       "authors": ["Richard Wilkes"],
+      "price": 49.95,
       "isTRS80": true,
       "whenpub": "1980"
     },
@@ -270,6 +304,7 @@ export default {
       "description": "Ancestory Software",
       "authors": ["Chuck Acree"],
       "isTRS80": true,
+      "price": 29.95,
       "isCreativeReview": true,
       "urlCreativeReview": "https://www.atarimagazines.com/creative/v9n12/350_TRS80_strings.php",
       "whenpub": "1981"
@@ -279,6 +314,7 @@ export default {
       "title": "Electronic Handicapper: Basketball",
       "description": "Entertainment",
       "authors": ["Rich Sothen","John Laurence","Walter Gavenda"],
+      "price": 99.95,
       "isTRS80": true,
       "whenpub": "1980"
     },
@@ -288,7 +324,8 @@ export default {
       "description": "Educational",
       "authors": ["Cindy Bartorillo","Andrew P. Bartorillo"],
       "isTRS80": true,
-      "isAtari": true,
+      "isAtari": 29.95,
+      "price": 29.95,
       "whenpub": "1981",
       "link": "http://www.atarimania.com/game-atari-400-800-xl-xe-language-teacher-french-i_6332.html"
     },
@@ -297,6 +334,7 @@ export default {
       "title": "Instant Sort/Search Database",
       "description": "Information Manager",
       "authors": ["Gordon Hatton"],
+      "price": 49.95,
       "isTRS80": true,
       "whenpub": "1982",
       "url": "https://www.mocagh.org/loadpage.php?getcompany=mystadv&npp=25&whatsnew=0&start=0&series=Mysterious+Adventures+%28Acorn%29"
@@ -306,6 +344,7 @@ export default {
     //   "title": "Checkbook Plus",
     //   "description": "Money Management",
     //   "authors": ["tbd"],
+    //   "price": 39.95,
     //   "isTRS80": true,
     //   "whenpub": "1980"},
 
@@ -314,8 +353,10 @@ export default {
       "title": "Arrow of Death, Part 1",
       "description": "Interactive Fiction",
       "authors": ["Brian Howarth"],
+      "authorsWikipedia": "https://en.wikipedia.org/wiki/Brian_Howarth",
       "isTRS80": true,
-      "whenpub": "1981",
+      "whenpub": "1982",
+      "price": 19.95,
       "note": "in May 1982 Acorn 80 Micro Ad, docs say copyright 1981",
       "url": "https://www.mocagh.org/loadpage.php?getcompany=mystadv&npp=25&whatsnew=0&start=0&series=Mysterious+Adventures+%28Acorn%29",
       "ur2": "https://www.mocagh.org/mystadv/mysterious2acorn.pdf",
@@ -327,7 +368,8 @@ export default {
       "description": "Interactive Fiction",
       "authors": ["Brian Howarth"],
       "isTRS80": true,
-      "whenpub": "1981",
+      "price": 19.95,
+      "whenpub": "1982",
       "note": "have image from https://twitter.com/weheartboxart/status/1181562515123294211?s=27",
       "url": "https://www.mocagh.org/loadpage.php?getcompany=mystadv&npp=25&whatsnew=0&start=0&series=Mysterious+Adventures+%28Acorn%29"
     },

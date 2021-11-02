@@ -30,7 +30,7 @@ export default {
       "magazine": "80 Microcomputing",  
       "when": "198004",
       "page": "51",
-      "url": " https://archive.org/details/80-microcomputing-magazine-1980-04/page/n50/mode/1up",
+      "url": "https://archive.org/details/80-microcomputing-magazine-1980-04/page/n50/mode/1up",
       "products": ["system_savers"],
       "mentioned": ["aterm","numbering","disassembler","tape_utility","disk_utility"],
       "note": "same as March 1980"
@@ -70,7 +70,7 @@ export default {
     {
       "magazine": "80 Microcomputing",
       "when": "198009",
-      "page": "70??",
+      "page": "110",
       "url": "https://archive.org/details/80-microcomputing-magazine-1980-09/page/n109/mode/2up?view=theater",
       "products": ["pigskin"],
       "mentioned": ["pinball", "quad", "gammon_challenger"]
@@ -96,7 +96,7 @@ export default {
       "when": "198012",
       "page": "173",
       "url": "https://archive.org/details/80-microcomputing-magazine-1980-12/page/n171/mode/2up?view=theater",
-      "products": ["pigskin","system_savers","invaders_from_space","duel_n_droid"],
+      "products": ["pigskin","system_savers","invaders_from_space","duel_n_droid","superscript"],
       "mentioned": ["space_war","aterm","music"],
       "url_creative": "",
       "when_creative": "111980"
@@ -115,7 +115,7 @@ export default {
       "magazine": "80 Microcomputing",
       "when": "198101",
       "page": "181",
-      "url": " https://archive.org/details/80-microcomputing-magazine-1981-01/page/n179/mode/2up?view=theater",
+      "url": "https://archive.org/details/80-microcomputing-magazine-1981-01/page/n179/mode/2up?view=theater",
       "products": ["invaders_from_space","duel_n_droids"],
       "mentioned": [""],
       "url_creative": ""
@@ -172,7 +172,7 @@ export default {
       "magazine": "80 Microcomputing",
       "when": "198108",
       "page": "59",
-      "url": "https://archive.org/details/80-microcomputing-magazine-1981-07/page/n124/mode/1up?view=theater",
+      "url": "https://archive.org/details/80-microcomputing-magazine-1981-08/page/n57/mode/1up?view=theater",
       "products": ["ten_pins","pinball","basketball"],
       "mentioned": [""]
     },
@@ -180,7 +180,7 @@ export default {
       "magazine": "80 Microcomputing",
       "when": "198109",
       "page": "243",
-      "url": "hhttps://archive.org/details/80-microcomputing-magazine-1981-09/page/n242/mode/1up?view=theater",
+      "url": "https://archive.org/details/80-microcomputing-magazine-1981-09/page/n242/mode/1up?view=theater",
       "products": ["space_rocks","ten_pins","pinball","invaders_from_space"],
       "mentioned": [""]
     },
@@ -213,7 +213,7 @@ export default {
       "magazine": "80 Microcomputing",
       "when": "198201",
       "page": "367",
-      "url": "https://archive.org/details/80-microcomputing-magazine-1982-01/page/n387/mode/1up?view=theater",
+      "url": "https://archive.org/details/80-microcomputing-magazine-1982-01/page/n366/mode/1up?view=theater",
       "products": ["your_family_tree","money_manager","lost_colony","space_rocks"],
       "mentioned": [""]
     },    
@@ -266,7 +266,7 @@ export default {
       "url": "https://archive.org/details/80-microcomputing-magazine-1982-06/page/n93/mode/1up?view=theate",
       "products": ["superscript","system_savers","instant_sort_search_database","arrow_of_death_1","astroball","space_rocks","tenpins"],
       "mentioned": [""]
-    }
+    },
     // production of some of these new products was an issue but there is not enough information to include
     //,{
     //   "magazine": "80 Micro",
@@ -285,6 +285,20 @@ export default {
     //   "products": ["superscript","evade","king_of_the_jungle","demise","enemy_evasion"],
     //   "mentioned": [""]
     // }
-
+    
+    {
+      "magazine": "Compute!",
+      "when": "198209",
+      "page": "65",
+      "url": "https://archive.org/details/1982-09-compute-magazine/page/n65/mode/2up",
+      "products": ["money_manager","everest_explorer","lost_colony","language_teacher"]
+    },
+    {
+      "magazine": "Compute!",
+      "when": "198211",
+      "page": "71",
+      "url": "https://archive.org/details/1982-09-compute-magazine/page/n65/mode/2up",
+      "products": ["formula_1","everest_explorer","lost_colony","language_teacher"]
+    }
   ]
 }

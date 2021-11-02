@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Acorn Software Products Authors</title>
+</svelte:head>
+
 <script>
   import catalog2 from './../../data/catalog2.js'
   const product2 = catalog2.products;  //obj
@@ -55,12 +59,10 @@
   }
 </script>
 
-<h1>Authors</h1>
+<h1>Acorn's Authors</h1>
 
-<p>The authors were important to Acorn Software Products. 
-  Their names always listed in ads, catalogs, and on the product.</p>
-
-<!-- <p>{JSON.stringify(authorsObj)}</p> -->
+<div class="description">The authors were important to Acorn Software Products. 
+  Their names were always prominently displayed in ads, in catalogs, and on the product.</div>
 
 {#each authors as author}
   <div class="authors">
@@ -70,7 +72,9 @@
 {/each}
 
 <style>
-  /* h1 {color: brown; margin-bottom: 0.1rem;} */
   .author {font-weight: bold;}
-  .authors {margin-bottom: 0.5rem; margin-left: 0.5rem;}
+  .authors {margin-bottom: 0.5rem; }
+  .description {margin-bottom: 1rem;}
+  h1 {margin-bottom: 0.1rem; margin-top: 0.5rem;}
+  h2 {margin-bottom: 0.5rem; }
 </style>

@@ -1,20 +1,14 @@
-<script>
-  import catalog from './../data/catalog.js'
-
-</script>
-
-
 <svelte:head>
   <title>Acorn Software Products</title>
 </svelte:head>
 
-<h1>Acorn Software Products, Inc.</h1>
-<p>For over three years Acorn Software Products was one of the leading publishers in the United States.
-   The catalog included categories of games, productivity tools, educational products, and utilities for the Radio Shack TRS-80 and Atari computers.</p>
+<h2 class="about">About Acorn Software Products, Inc.</h2>
+<p>Starting in 1979 Acorn Software Products was one of the leading software publishers in the United States.
+   The catalog included games, productivity tools, educational products, and utilities for the Radio Shack TRS-80 and Atari computers.</p>
 
-<p>From 1979 until 1982 Acorn published over 30 titles in a wide variety of categories, 
-  advertised with display ads monthly in every issue of 80-Microcomputing and other magazines, 
-  and launched the careers of a number of authors.
+<p>From 1979 to 1982 Acorn published over 30 titles in a wide variety of categories, 
+  advertised monthly with display ads monthly in every issue of 80-Microcomputing and in other magazines, 
+  plus launched the careers of a number of authors.
   The authors were always promiently featured in packaging and advertising.</p>
 
   <p>The company was founded in <a href="http://www.trademarkia.com/acorn-software-products-inc-73347970.html">1979</a> 
@@ -24,23 +18,27 @@
 <h2>Notable Achievements</h2>
 <ul>
   <li>Daphne Schor was the President and one of the first women to lead a major software publisher.</li>
-  <li>By publishing "Formula 1 Racing" in 1982, Acorn was Sid Mieir's first publisher. 
-    He went on to gain aclaim at MicroProse and Firaxis 
-    where he published many more titles including Pirates, Railroad Tycoon, and Civilization.</li>
-  <li>Acorn started advertising in the premier issue 80-Microcomputing magazine until it became the third largest in the United States 30 issues later.</li>
+  <li>By publishing "Formula 1" in 1982, Acorn was Sid Mieir's first publisher. 
+    He later gained fame at MicroProse and Firaxis where he authored many more titles 
+    including Pirates, Railroad Tycoon, and Civilization.</li>
+  <li>Acorn was recognized for the packaging design which worked for both retail and mail order. 
+    The layout of this site mimics that design.
+  </li>
+  <!-- <li>Acorn started advertising in the premier issue 80-Microcomputing magazine until it became the third largest in the United States 30 issues later.</li> -->
 </ul>
 
 <h2>Status of This Site</h2>
-<p>This site is a work in progress. 
-  Information is complete until May 1982 except for detailing ads in more publications. 
-  The intent is to include the additional years and ads plus titles for the Atari and IBM Computers.</p>
+<p>This site is maintained on GitHub and pull requests (updates or corrections) will be considered.</p>
 
-<p>TODOs for 1982 launch: 
-  logo, Creative Computing ads, 1981 catalog in materials, product pages, css cards</p>
-  <p>-Ray Daly, October 2021</p>
+<h2>Dedication</h2>
+<p>This site is dedicated to Daphne Schor and Ira Hamburg, two wonderful people.</p>
+
 
 <style>
-  h1 {color: brown; margin-bottom: 0.1rem;}
-  p {margin-bottom: 0.5rem; margin-left: 0.5rem;}
+  p {margin-bottom: 0.5rem; }
+  .about {margin-top: 0.5rem;}
+  h2 {margin-bottom: -.75rem;}
+  li {margin-bottom: 0.5rem;}
 </style>
+
 

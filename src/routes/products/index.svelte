@@ -1,3 +1,11 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
+<svelte:head>
+  <title>Acorn Software Products Product Catalog</title>
+</svelte:head>
+
 <script>
   // import catalog from './../../data/catalog.js'
   import catalog2 from './../../data/catalog2.js'
@@ -10,13 +18,22 @@
       return -1
     }
   )   //alpha sort
+
+  // const product2 = catalog2.products
+  // let products2 = Object.values(product2).sort(
+  //   function(a,b){
+  //     if( a.whenpub > b.whenpub){ return 1}
+  //     // console.log(a.title, b.title)
+  //     return -1
+  //   }
+  // )   //pub date sort
+
+
 </script>
 
-<h1>Products</h1>
+<h1>Acorn's Products</h1>
 
-<p>Acorn published software for the Radio Shack TRS-80, Atari Computer and IBM PC Compatibles. </p>
-
-<!-- <div>Test: {catalog2.title}   {product2.codebreaker.description}</div> -->
+<div>Acorn published software for the Radio Shack TRS-80, Atari Computer and IBM PC Compatibles. </div>
 
 <h2>TRS-80 Programs</h2>
 
@@ -26,29 +43,34 @@
       <span class="title">{product.title}</span> by 
       <span class="authors">{product.authors}</span>
       <span class="when">({product.whenpub})</span>
+      {#if product.price}
+        <span class="price">${product.price}</span>
+      {/if}
     {/if}
   </div>
 {/each}
 
 <h2>Atari Programs</h2>
-<p>Atari catalog will be updated in next version.</p>
-<!-- {#each products as product}
+<!-- <div class="product">Atari catalog will be updated in next version.</div> -->
+{#each products2 as product}
   <div class="product">
     {#if product.isAtari}
       <span class="title">{product.title}</span> by 
       <span class="authors">{product.authors}</span> 
       <span class="when">({product.whenpub})</span>
+      <span class="price">${product.isAtari}</span>
     {/if}
   </div>
 {/each}
 
- -->
+
  
- <h2>IBM PC Programs</h2>
- <p>IBM catalog will be updated in next version.</p>
+ <!-- <h2>IBM PC Programs</h2>
+ <div class="product">IBM catalog will be updated in next version.</div> -->
 
 <style>
-  h1 {color: brown; margin-bottom: 0.1rem;}
-  .product {margin-bottom: 0.5rem; margin-left: 0.5rem;}
+  h1 {margin-bottom: 0.1rem; margin-top: 0.5rem;}
+  h2 {margin-bottom: 0.5rem; }
+  .product {margin-bottom: 0.5rem; }
   .title {font-weight: bold;}
 </style>
